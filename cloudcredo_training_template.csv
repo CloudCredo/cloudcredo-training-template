@@ -1,0 +1,63 @@
+Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State
+As a CloudCredoer I know who to talk to if I have questions,core,,,,feature,,unscheduled
+As a CloudCredoer I can access the company slack,core,,,,feature,,unscheduled
+As a CloudCredoer I know how to use time recording,core,,,,feature,,unscheduled
+As a CloudCredoer I am aware of Cloud Foundry and BOSH new features and security patches,core,,,,feature,,unscheduled
+As a CloudCredoer I know about local meetups for Cloud Foundry and PaaS,core,,,,feature,,unscheduled
+As CloudCredoers we can set git author and committer correctly on commits,core,,,,feature,,unscheduled
+As a CloudCredoer I can install the BOSH Ruby CLI,core,,,,feature,,unscheduled
+As a CloudCredoer I can deploy a bosh-lite,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can view  debug logs for tasks on the BOSH Director,"aws, boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can deploy cloud-foundry to bosh-lite,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can smoke and acceptance test a running Cloud Foundry,"aws, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can install the Cloud Foundry Go CLI,core,,,,feature,,unscheduled
+As a CloudCredoer I can deploy sample applications to Cloud Foundry,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can scale a sample application in cloud foundry,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can set environment variables for my Cloud Foundry applications,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can bind a domain to a sample application,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can watch an HTTP trace of application deployment to Cloud Foundry,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can blue-green deploy a sample application in Cloud Foundry,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can send application logs to a remote logging service,appdev,,,,feature,,unscheduled
+"As a CloudCredoer I can manage orgs, spaces, users and quotas in cloud foundry","appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can view all users present in the UAA,cfops,,,,feature,,unscheduled
+As a CloudCredoer I can add security groups so my applications can access services,cfops,,,,feature,,unscheduled
+As a CloudCredoer I can connect a sample ruby application to a redis-labs CUPS,"appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can access a shell inside a running application container,"appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can deploy a non-web component of an application to Cloud Foundry using the same code base as a web application,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can access job attributes by looking in spec files,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can customise CF release,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can upgrade Cloud Foundry,"aws, boshdev, cfops, p1",,,,feature,,unscheduled
+As a CloudCredoer I can access the AWS console,aws,,,,feature,,unscheduled
+As a CloudCredoer I can set up AWS for micro bosh deployment,aws,,,,feature,,unscheduled
+As a CloudCredoer I can create an inception VM to use for micro BOSH deployment,aws,,,,feature,,unscheduled
+As a CloudCredoer I can deploy micro bosh to AWS,aws,,,,feature,,unscheduled
+As a CloudCredoer I understand what a light stemcell is and can explain the files within a stemcell tarball,"",,,,feature,,unscheduled
+As a CloudCredoer I can manually deploy bosh to AWS,aws,,,,feature,,unscheduled
+As a CloudCredoer I can manually deploy Cloud Foundry to AWS using the aws bosh plugin,aws,,,,feature,,unscheduled
+As a CloudCredoer I can scale the number of DEAs in my Cloud Foundry deployment,"cfops, p1",,,,feature,,unscheduled
+As a CloudCredoer I can performance test Cloud Foundry,cfops,,,,feature,,unscheduled
+As a CloudCredoer I can deploy a highly available Cloud Foundry on AWS,aws,,,,feature,,unscheduled
+As a CloudCredoer I can stop a bosh job to more easily isolate a deployment problem,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can view BOSH and CF NATS messages to better understand the system,cfops,,,,feature,,unscheduled
+As a CloudCredoer I can view logs from my cloud foundry servers via logsearch,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can receive an email from BOSH's health monitor in the event of an issue,"boshdev, cfops, p1",,,,feature,,unscheduled
+As a CloudCredoer I can watch BOSH's resurrector working,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can create a custom stemcell,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can add packages to the default CF container filesystem,cfops,,,,feature,,unscheduled
+As a CloudCredoer I can create and use a custom buildpack,"appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can choose a JVM in the Java buildpack,"appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can change buildpack priorities,"appdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can deliver a service as microservices using Colin's sync/async micropatterns,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can create a redis bosh release that starts a single instance of redis,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can deploy a redis bosh release,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can create a redis service broker that allows all clients access to the same redis store,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can create and deploy a redis bosh release including the service broker,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can deploy a ruby application that uses my deployed redis ,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can ensure my redis data is persisted in /var/vcap/store,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can deploy OpsManager to VSphere,p1,,,,feature,,unscheduled
+As a CloudCredoer I can deploy Cloud Foundry using OpsManager,p1,,,,feature,,unscheduled
+As a CloudCredoer I can administer my Pivotal CF account via Apps Manager,p1,,,,feature,,unscheduled
+As a CloudCredoer I can convert a Redis bosh release to a deployable PCF tile,"boshdev, p1",,,,feature,,unscheduled
+As a CloudCredoer I can deploy Redis using OpsManager,"boshdev, p1",,,,feature,,unscheduled
+As a CloudCredoer I can deploy a stateful docker container managed by BOSH,boshdev,,,,feature,,unscheduled
+As a CloudCredoer I can deploy a stateless docker container managed by Cloud Foundry,appdev,,,,feature,,unscheduled
