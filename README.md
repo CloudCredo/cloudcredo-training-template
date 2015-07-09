@@ -1,10 +1,10 @@
 #CloudCredo Training Template
 
-##Who are [CloudCredo](http://www.cloudcredo.com/)
+##Who are [CloudCredo](http://www.cloudcredo.com/)?
 
 We're a consultancy focused on [Cloud Foundry](http://www.cloudfoundry.org) and [BOSH](http://bosh.io/). We help our clients participate in the Cloud Foundry ecosystem.
 
-##What is this repository
+##What is this repository?
 
 When we on-board new engineers we use this backlog, in [Pivotal Tracker](https://www.pivotaltracker.com/n/projects/1151108), as a basis for their training. We pair our new engineers with experienced engineers on this work so they can gain domain expertise as quickly as possible.
 
