@@ -8,17 +8,17 @@ As CloudCredoers we can set git author and committer correctly on commits,core,,
 As a CloudCredoer I can install the BOSH Ruby CLI,core,,,,feature,,unscheduled
 As a CloudCredoer I can deploy a bosh-lite,"boshdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can view  debug logs for tasks on the BOSH Director,"aws, boshdev, cfops",,,,feature,,unscheduled
-As a CloudCredoer I can deploy cloud-foundry to bosh-lite,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can deploy Cloud Foundry to bosh-lite,"boshdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can smoke and acceptance test a running Cloud Foundry,"aws, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can install the Cloud Foundry Go CLI,core,,,,feature,,unscheduled
 As a CloudCredoer I can deploy sample applications to Cloud Foundry,appdev,,,,feature,,unscheduled
-As a CloudCredoer I can scale a sample application in cloud foundry,appdev,,,,feature,,unscheduled
+As a CloudCredoer I can scale a sample application in Cloud Foundry,appdev,,,,feature,,unscheduled
 As a CloudCredoer I can set environment variables for my Cloud Foundry applications,appdev,,,,feature,,unscheduled
 As a CloudCredoer I can bind a domain to a sample application,appdev,,,,feature,,unscheduled
 As a CloudCredoer I can watch an HTTP trace of application deployment to Cloud Foundry,appdev,,,,feature,,unscheduled
 As a CloudCredoer I can blue-green deploy a sample application in Cloud Foundry,appdev,,,,feature,,unscheduled
 As a CloudCredoer I can send application logs to a remote logging service,appdev,,,,feature,,unscheduled
-"As a CloudCredoer I can manage orgs, spaces, users and quotas in cloud foundry","appdev, cfops",,,,feature,,unscheduled
+"As a CloudCredoer I can manage orgs, spaces, users and quotas in Cloud Foundry","appdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can view all users present in the UAA,cfops,,,,feature,,unscheduled
 As a CloudCredoer I can add security groups so my applications can access services,cfops,,,,feature,,unscheduled
 As a CloudCredoer I can connect a sample ruby application to a redis-labs CUPS,"appdev, cfops",,,,feature,,unscheduled
@@ -39,7 +39,7 @@ As a CloudCredoer I can performance test Cloud Foundry,cfops,,,,feature,,unsched
 As a CloudCredoer I can deploy a highly available Cloud Foundry on AWS,aws,,,,feature,,unscheduled
 As a CloudCredoer I can stop a bosh job to more easily isolate a deployment problem,"boshdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can view BOSH and CF NATS messages to better understand the system,cfops,,,,feature,,unscheduled
-As a CloudCredoer I can view logs from my cloud foundry servers via logsearch,"boshdev, cfops",,,,feature,,unscheduled
+As a CloudCredoer I can view logs from my Cloud Foundry servers via logsearch,"boshdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can receive an email from BOSH's health monitor in the event of an issue,"boshdev, cfops, p1",,,,feature,,unscheduled
 As a CloudCredoer I can watch BOSH's resurrector working,"boshdev, cfops",,,,feature,,unscheduled
 As a CloudCredoer I can create a custom stemcell,boshdev,,,,feature,,unscheduled
